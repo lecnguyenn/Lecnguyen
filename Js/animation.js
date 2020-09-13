@@ -21,7 +21,7 @@ function sendToPrint(){
     if(index < textHolder.length){
         printing = window.setTimeout(function(){
             getLetter(textTarget,index);
-        },150);
+        },100);
     }
     else{
         waiting = false;
